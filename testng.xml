@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Automation Suite">
+    <test name="All Selenium Modules">
+        <classes>
+            <class name="Tests.AlertOperations"/>
+            <class name="Tests.ButtonClicks"/>
+            <class name="Tests.DatePicker"/>
+            <class name="Tests.DragAndDrop"/>
+            <class name="Tests.DropDown"/>
+            <class name="Tests.DynamicElements"/>
+            <class name="Tests.FileHandling"/>
+            <class name="Tests.GetCurrentURL"/>
+            <class name="Tests.GetPageSource"/>
+            <class name="Tests.GetTitle"/>
+            <class name="Tests.Iframes"/>
+            <class name="Tests.KeyBoardActions"/>
+            <class name="Tests.MouseActions"/>
+            <class name="Tests.NavigateAndXpath"/>
+            <class name="Tests.RadioButton"/>
+            <class name="Tests.RefreshPage"/>
+            <class name="Tests.ShadowDOM"/>
+            <class name="Tests.Table"/>
+            <class name="Tests.VerifyOtp"/>
+            <class name="Tests.WebElementOperations"/>
+            <class name="Tests.WindowHandle"/>
+        </classes>
+    </test>
+</suite>

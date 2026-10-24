@@ -19,7 +19,7 @@ public class Base {
 		a = new Actions(driver);
 		}
 	
-//	@AfterMethod
+	@AfterMethod
 	public void browserQuit() {
 		driver.quit();
 	}
