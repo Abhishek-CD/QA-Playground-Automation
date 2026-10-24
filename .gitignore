@@ -1,0 +1,14 @@
+# TestNG generated reports
+test-output/
+
+# Maven build output
+target/
+
+# Eclipse files
+.settings/
+.classpath
+.project
+
+# IntelliJ files
+.idea/
+*.iml
