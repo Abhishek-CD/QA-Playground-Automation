@@ -2,7 +2,7 @@
 
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Selenium Automation Suite">
+<suite name="Selenium Automation Suite" parallel="classes">
     <test name="All Selenium Modules">
         <classes>
             <class name="Tests.AlertOperations"/>
